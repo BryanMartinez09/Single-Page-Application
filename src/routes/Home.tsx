@@ -22,14 +22,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
-        <h2 className="text-lg font-semibold mb-3">Nuevos lanzamientos</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-          {newReleases.map((t) => (
-            <TrackCard key={t.id} track={t} queue={newReleases} />
-          ))}
-        </div>
-      </section>
+  
     </div>
   )
 }

@@ -13,7 +13,7 @@ export default function Library() {
   return (
     <div className="space-y-8">
       <header className="card-surface p-6">
-        <h1 className="text-2xl font-semibold">Tu Biblioteca</h1>
+        
         <p className="text-white/70 mt-1">Tus canciones favoritas (se guardan en LocalStorage).</p>
       </header>
 
